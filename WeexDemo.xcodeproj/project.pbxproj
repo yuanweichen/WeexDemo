@@ -26,9 +26,9 @@
 		D9CF494A21A7E8C000575B3E /* UIViewController+WXDemoNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CF494021A7E8C000575B3E /* UIViewController+WXDemoNaviBar.m */; };
 		D9CF494B21A7E8C000575B3E /* WXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CF494321A7E8C000575B3E /* WXDemoViewController.m */; };
 		D9CF494C21A7E8C000575B3E /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CF494621A7E8C000575B3E /* WXImgLoaderDefaultImpl.m */; };
+		D9CF494E21A7FA3400575B3E /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = D9CF494D21A7FA3400575B3E /* index.js */; };
 		DC5E503E1D0D97130059F0EB /* weex.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5E503C1D0D97130059F0EB /* weex.png */; };
 		DC5E503F1D0D97130059F0EB /* weex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5E503D1D0D97130059F0EB /* weex@2x.png */; };
-		DC65C4FA1CEB032F00B2F84F /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = DC65C4F91CEB032F00B2F84F /* bundlejs */; };
 		DC6DD9D21CFE9BC400549297 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7475ACA01CD8444A0044E96C /* libsqlite3.0.tbd */; };
 		DCD286E01CF491AC00C601CA /* weex-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD286DF1CF491AC00C601CA /* weex-icon.png */; };
 		ECD914D77E3545D298280280 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB15C78BC5454C86CFBC04 /* AVFoundation.framework */; };
@@ -80,6 +80,7 @@
 		D9CF494421A7E8C000575B3E /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
 		D9CF494521A7E8C000575B3E /* UIViewController+WXDemoNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXDemoNaviBar.h"; sourceTree = "<group>"; };
 		D9CF494621A7E8C000575B3E /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		D9CF494D21A7FA3400575B3E /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		DC5E503C1D0D97130059F0EB /* weex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weex.png; sourceTree = "<group>"; };
 		DC5E503D1D0D97130059F0EB /* weex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weex@2x.png"; sourceTree = "<group>"; };
 		DC65C4F91CEB032F00B2F84F /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
@@ -156,6 +157,7 @@
 		775BEE721C1E8ECC008D1629 = {
 			isa = PBXGroup;
 			children = (
+				D9CF494D21A7FA3400575B3E /* index.js */,
 				775BEE7D1C1E8ECC008D1629 /* WeexDemo */,
 				775BEE971C1E8ECC008D1629 /* WeexDemoTests */,
 				775BEE7C1C1E8ECC008D1629 /* Products */,
@@ -359,13 +361,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CF494E21A7FA3400575B3E /* index.js in Resources */,
 				DC5E503E1D0D97130059F0EB /* weex.png in Resources */,
 				DC5E503F1D0D97130059F0EB /* weex@2x.png in Resources */,
 				DCD286E01CF491AC00C601CA /* weex-icon.png in Resources */,
 				59EA0DA71D2E7D19004F904A /* Images.xcassets in Resources */,
 				0A86901F1E1E7872000A3F81 /* WeexDemo-Info.plist in Resources */,
 				0AE277DC1DE56A5600C6D86A /* config.xml in Resources */,
-				DC65C4FA1CEB032F00B2F84F /* bundlejs in Resources */,
 				775BEE8B1C1E8ECC008D1629 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

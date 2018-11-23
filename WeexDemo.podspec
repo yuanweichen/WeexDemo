@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WeexDemo"
-  s.version      = "15"
+  s.version      = "16"
   s.summary      = "WeexDemo."
 
   # This description is used to generate tags and improve search results.
