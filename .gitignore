@@ -1,0 +1,7 @@
+WeexDemo.xcodeproj/xcuserdata/
+WeexDemo.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+WeexDemo.xcodeproj/project.xcworkspace/xcuserdata/
