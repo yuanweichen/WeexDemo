@@ -49,7 +49,7 @@
     
     [WXSDKEngine initSDKEnvironment];
     
-    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
+//    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
     
 #ifdef DEBUG
     [WXLog setLogLevel:WXLogLevelLog];
