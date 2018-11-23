@@ -6,7 +6,7 @@
  * For the full copyright and license information,please view the LICENSE file in the root directory of this source tree.
  */
 
-#import "AppDelegate.h"
+#import "WXAppDelegate.h"
 #import "DemoDefine.h"
 #import <WeexSDK/WeexSDK.h>
 #import <AVFoundation/AVFoundation.h>
