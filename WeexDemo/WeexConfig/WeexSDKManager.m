@@ -37,7 +37,7 @@
 #endif
     
     [self initWeexSDK];
-    [self loadCustomContainWithScannerWithUrl:url];
+//    [self loadCustomContainWithScannerWithUrl:url];
 }
 
 + (void)initWeexSDK

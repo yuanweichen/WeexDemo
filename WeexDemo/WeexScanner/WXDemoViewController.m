@@ -14,7 +14,7 @@
 #import <WeexSDK/WXSDKManager.h>
 #import "UIViewController+WXDemoNaviBar.h"
 #import "DemoDefine.h"
-
+#import "WeexSDKManager.h"
 
 @interface WXDemoViewController () <UIScrollViewDelegate, UIWebViewDelegate>
 @property (nonatomic, strong) WXSDKInstance *instance;
@@ -35,6 +35,23 @@
 - (instancetype)init
 {
     if (self = [super init]) {
+        NSURL *url = nil;
+#if DEBUG
+        //If you are debugging in device , please change the host to current IP of your computer.
+        url = [NSURL URLWithString:BUNDLE_URL];
+#else
+        url = [NSURL URLWithString:BUNDLE_URL];
+#endif
+        NSString * entryURL = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"WXEntryBundleURL"];
+        if (entryURL) {
+            if ([entryURL hasPrefix:@"http"]) {
+                url = [NSURL URLWithString:entryURL];
+            } else {
+                url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@",[[NSBundle bundleForClass:self.class] resourceURL].absoluteString, entryURL]];
+            }
+        }
+        self.url = url;
+        [WeexSDKManager setup];
     }
     
     return self;
