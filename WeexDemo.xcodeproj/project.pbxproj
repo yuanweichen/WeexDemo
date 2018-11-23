@@ -227,16 +227,16 @@
 		D9CF493B21A7E8C000575B3E /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				D9CF493C21A7E8C000575B3E /* WXDemoViewController.h */,
+				D9CF494421A7E8C000575B3E /* DemoDefine.h */,
+				D9CF494221A7E8C000575B3E /* Target_Weex.h */,
 				D9CF493D21A7E8C000575B3E /* Target_Weex.m */,
-				D9CF493E21A7E8C000575B3E /* WeexSDKManager.m */,
-				D9CF493F21A7E8C000575B3E /* WXImgLoaderDefaultImpl.h */,
+				D9CF494521A7E8C000575B3E /* UIViewController+WXDemoNaviBar.h */,
 				D9CF494021A7E8C000575B3E /* UIViewController+WXDemoNaviBar.m */,
 				D9CF494121A7E8C000575B3E /* WeexSDKManager.h */,
-				D9CF494221A7E8C000575B3E /* Target_Weex.h */,
+				D9CF493E21A7E8C000575B3E /* WeexSDKManager.m */,
+				D9CF493C21A7E8C000575B3E /* WXDemoViewController.h */,
 				D9CF494321A7E8C000575B3E /* WXDemoViewController.m */,
-				D9CF494421A7E8C000575B3E /* DemoDefine.h */,
-				D9CF494521A7E8C000575B3E /* UIViewController+WXDemoNaviBar.h */,
+				D9CF493F21A7E8C000575B3E /* WXImgLoaderDefaultImpl.h */,
 				D9CF494621A7E8C000575B3E /* WXImgLoaderDefaultImpl.m */,
 			);
 			path = Targets;
