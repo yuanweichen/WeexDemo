@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WeexDemo"
-  s.version      = "18"
+  s.version      = "19"
   s.summary      = "WeexDemo."
 
   # This description is used to generate tags and improve search results.
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-   s.resources = "/*.{js}"
+   s.resources = "*.{js}"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
